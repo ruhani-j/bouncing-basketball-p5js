@@ -1,0 +1,8 @@
+# Private / unpublished files
+faltu/
+
+# Defense-in-depth — block these types anywhere in the repo
+*.pdf
+*.mp4
+*.mov
+*.docx
