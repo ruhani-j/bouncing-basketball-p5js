@@ -1,16 +1,11 @@
-// Project Number 1 - October Midterm
+// Emoji sketch — basic version 1: face, eyes, and smile
 
 let width = 500;
 let height = 500;
 
-// variables
-
-// x position for face
+// face
 let x_circle_1 = width/2;
-
-// y position for face
 let y_circle_1 = height/2;
-
 let diameter = 400;
 
 // eyes
@@ -23,7 +18,6 @@ let height_eye = 90;
 // smile
 let x_smile = width/2;
 let y_smile = 340;
-let y_smile_2 = 200;
 let width_smile = 150;
 let height_smile = 90;
 

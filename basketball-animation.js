@@ -1,15 +1,5 @@
-// 2.5.1 Project: Animate a Song
-/*
-The song I picked is from the movie "Kuch Kuch Hota Hai." 
-It is a well known scene in Bollywood where the two main characters play basketball just like they used to do every day in high school.
-This is the song, "Yeh Ladka Hai Deewana" from Kuch Kuch Hota Hai
-
-I wanted to make my song lyric just the protagonist whistling but I felt that wasn't the best idea, so I made it "Yeh Ladka Hai Deewana," which is the title of the song and also a song lyric, it basically means the guy is crazy which accurately represents the movie and song. This quote is most accurately represented in the movie scenes where he is playing basketball since he looks crazy doing that.
-
-I made the background first using the techniques we learned in class, and made the ball bounce using variables like gravity and friction.
-
-https://youtu.be/DAy1I9ScdAA?si=gDud0CbazJBV-NR7
-*/
+// Bouncing basketball animation — p5.js physics simulation
+// Demonstrates gravity, velocity, friction, and collision detection
 
 // canvas size
 let width = 500;
@@ -22,9 +12,9 @@ let sun_y = 70; // Initial y position of the sun
 let sun_direction = 1; // Direction for moving the sun
 
 // sun colour vars
-sun_red = 255;
-sun_green = 255;
-sun_blue = 255; // Start with yellow
+let sun_red = 255;
+let sun_green = 255;
+let sun_blue = 255; // starts white, blue channel decreases each frame to shift warmer
 
 // basketball variables
 let diameter = 50;

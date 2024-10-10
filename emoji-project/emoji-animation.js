@@ -1,6 +1,4 @@
-// Project Number 1 - October Midterm
-// 1.5.1 Project: Create Your Own Emoji
-// I made a normal emoji that slowly becomes creepier
+// Emoji animation — face starts normal and progressively distorts each frame
 
 // canvas size
 let width = 500;
